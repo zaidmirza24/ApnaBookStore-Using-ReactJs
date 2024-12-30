@@ -7,7 +7,7 @@ function Login() {
     const onSubmit = data => console.log(data);
     return (
         <form onSubmit={handleSubmit(onSubmit) }>
-        <dialog id="my_modal_3" className="modal">
+        <dialog id="my_modal_3" className="modal"> 
         <div className="modal-box">
             <form method="dialog">
                 {/* if there is a button in form, it will close the modal */}
