@@ -1,34 +1,83 @@
 [
     {
-        "id":1,
-        "name":"story Book",
-        "title":"this the title",
-        "price":0,
-        "Category":"Free",
-        "image":"https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+      "id": 1,
+      "name": "Story Book",
+      "title": "A Journey to Remember",
+      "price": 100,
+      "Category": "Adventure",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
     },
     {
-        "id":2,
-        "name":"Novel",
-        "title":"this the title",
-        "price":0,
-        "Category":"Free",
-        "image":"https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+      "id": 2,
+      "name": "Novel",
+      "title": "Life in Shadows",
+      "price": 200,
+      "Category": "Drama",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
     },
     {
-        "id":3,
-        "name":"Spiritual book",
-        "title":"this the title",
-        "price":0,
-        "Category":"Free",
-        "image":"https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+      "id": 3,
+      "name": "Spiritual Book",
+      "title": "Path to Enlightenment",
+      "price": 150,
+      "Category": "Spiritual",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
     },
     {
-        "id":4,
-        "name":"Novels",
-        "title":"this the title",
-        "price":0,
-        "Category":"Free",
-        "image":"https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+      "id": 4,
+      "name": "Science Fiction",
+      "title": "Beyond the Stars",
+      "price": 300,
+      "Category": "Sci-Fi",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+    },
+    {
+      "id": 5,
+      "name": "History Book",
+      "title": "Echoes of the Past",
+      "price": 180,
+      "Category": "History",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+    },
+    {
+      "id": 6,
+      "name": "Cooking Book",
+      "title": "The Art of Culinary",
+      "price": 250,
+      "Category": "Cooking",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+    },
+    {
+      "id": 7,
+      "name": "Fantasy Book",
+      "title": "The Dragon Chronicles",
+      "price": 350,
+      "Category": "Fantasy",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+    },
+    {
+      "id": 8,
+      "name": "Mystery Book",
+      "title": "Whispers in the Dark",
+      "price": 220,
+      "Category": "Mystery",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+    },
+    {
+      "id": 9,
+      "name": "Biography",
+      "title": "The Untold Story",
+      "price": 300,
+      "Category": "Biography",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
+    },
+    {
+      "id": 10,
+      "name": "Poetry Book",
+      "title": "Verses of the Soul",
+      "price": 120,
+      "Category": "Poetry",
+      "image": "https://imgs.search.brave.com/chD_UtKlYv3V3kWHnTrDGPtXmPmZfDLSR5KWPKvPF1Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQzLzQxLzI2/LzM2MF9GXzM0MzQx/MjY3OF9KS3VOclFN/dFlIazUxSjZIUTlU/VEtyV2dNQ0VHQmxh/Sy5qcGc"
     }
-]
+  ]
+  

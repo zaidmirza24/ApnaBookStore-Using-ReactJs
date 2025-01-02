@@ -8,7 +8,7 @@ function Banner() {
                 <div className='w-full order-2 md:order-1 md:w-1/2  mt-12 md:mt-30'>
                     <div className='space-y-12'>
                         <h1 className='text-4xl font-bold'>Hello, Welcome here to learn something
-                            <span className='text-pink-500'> new everday!!</span>
+                            <span className='text-pink-500'> new everyday!!</span>
                         </h1>
                         <p className='text-xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis consequuntur deserunt, harum laboriosam nihil repellendus repellat, natus dolorem omnis sint magni voluptatem eveniet veritatis exercitationem totam assumenda!</p>
                         <label className="input input-bordered flex items-center gap-2">
