@@ -32,7 +32,7 @@ function Signup() {
 
   return (
     <>
-    <form onSubmit={handleSubmit(onSubmit)} className='flex  h-screen items-center justify-center '>
+    <form onSubmit={handleSubmit(onSubmit)} className='flex  h-screen items-center justify-center dark:bg-slate-900 dark:text-black'>
         <div className="w-[600px] ">
         <div className="modal-box border-[2px] shadow-md">
             <form method="dialog">

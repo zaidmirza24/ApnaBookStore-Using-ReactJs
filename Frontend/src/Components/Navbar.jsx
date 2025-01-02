@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Login from './Login';
+import { useActionData } from 'react-router-dom';
+import { useAuth } from './context/AuthProvider.jsx';
+import Logout from './Logout.jsx';
 
 function Navbar() {
+    const [authuser, setauthuser] = useAuth()
 
     const [theme,setTheme]=useState(localStorage.getItem("theme")?localStorage.getItem("theme"):"light")
     const element = document.documentElement;
@@ -75,7 +79,7 @@ function Navbar() {
                                 {navItems}
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl">BookStore</a>
+                        <a className="btn btn-ghost text-xl">ApnaBookStore</a>
                     </div>
                     <div className="navbar-end space-x-3">
 
@@ -129,14 +133,18 @@ function Navbar() {
                                 </svg>
                             </label>
                         </div>
-                        <div className="">
-                            <a
-                            onClick={
-                                ()=>(document.getElementById("my_modal_3").showModal())
-                            }
-                             className="bg-black text-white px-4 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">Login</a>
-                             <Login/>
-                        </div>
+
+                        {
+                            authuser?<Logout/>:(<div className="">
+                                <a
+                                onClick={
+                                    ()=>(document.getElementById("my_modal_3").showModal())
+                                }
+                                 className="bg-black text-white px-4 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">Login</a>
+                                 <Login/>
+                            </div>)
+                        }
+                        
                     </div>
                 </div>
             </div>
