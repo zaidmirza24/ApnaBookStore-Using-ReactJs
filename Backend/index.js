@@ -2,6 +2,7 @@ import express from 'express'
 import dotenv from 'dotenv'
 import mongoose from 'mongoose'
 import bookroute from './routes/book.route.js'
+import userroute from './routes/user.route.js'
 import cors from 'cors'
 
 
@@ -13,6 +14,7 @@ const URI = process.env.MongoDBURI
 
 // middleware
 app.use(cors())
+app.use(express.json())
 
 
 
@@ -28,6 +30,8 @@ try {
 //defining routes
 
 app.use('/book',bookroute)
+app.use('/user',userroute)
+
 
 
 app.get('/', (req, res) => {

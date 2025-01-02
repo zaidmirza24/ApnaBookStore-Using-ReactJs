@@ -79,8 +79,6 @@ function Freebook() {
                     </Slider>
                 </div>
             </div >
-
-
         </>
     )
 }

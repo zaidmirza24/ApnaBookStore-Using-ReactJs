@@ -1,10 +1,38 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Login from '../Components/Login'
+import axios from 'axios'
+import { useForm } from "react-hook-form";
+
+
 function Signup() {
+    const { register, handleSubmit, formState: { errors } } = useForm();
+
+    const onSubmit = async (data) =>{
+        console.log(data)
+        const userInfo = {
+            Fullname : data.fullname,
+            email: data.email,
+            password: data.password
+        }
+        await axios.post("http://localhost:3000/user/signup",userInfo).then((res)=>{
+        console.log(res)
+        if(res.data){
+            alert("signup succesfully!")
+        }
+        localStorage.setItem("users",JSON.stringify(res.data.User))
+    }).catch((err)=>{
+        if(err.response){
+            console.log(err);
+        alert("error" + err.response.data.message)
+        }
+    })
+    }
+
+
   return (
     <>
-    <div className='flex  h-screen items-center justify-center '>
+    <form onSubmit={handleSubmit(onSubmit)} className='flex  h-screen items-center justify-center '>
         <div className="w-[600px] ">
         <div className="modal-box border-[2px] shadow-md">
             <form method="dialog">
@@ -15,23 +43,23 @@ function Signup() {
             <h3 className="font-bold text-lg">Signup!</h3>
             {/* Name */}
             <div className='mt-4 space-y-2'>
-                <span>Name</span>
+                <span>FullName</span>
                 <br />
-                <input type="email" placeholder='Enter Your Name' className='w-90 px-3 border outline-none rounded-md' />
+                <input {...register("fullname",{required:true})} type="email" placeholder='Enter Your Name' className='w-90 px-3 border outline-none rounded-md' />
                 
             </div>
             {/* Email */}
             <div className='mt-4 space-y-2'>
                 <span>Email</span>
                 <br />
-                <input type="email" placeholder='Enter Your Email' className='w-90 px-3 border outline-none rounded-md' />
+                <input {...register("email",{required:true})}  type="email" placeholder='Enter Your Email' className='w-90 px-3 border outline-none rounded-md' />
                 
             </div>
             {/* Password  */}
             <div className='mt-4 space-y-2'>
                 <span>Password</span>
                 <br />
-                <input type="text" placeholder='Enter Your Password' className='w-90 px-3 border outline-none rounded-md' />
+                <input {...register("password",{required:true})}  type="text" placeholder='Enter Your Password' className='w-90 px-3 border outline-none rounded-md' />
                 
             </div>
             {/* Button */}
@@ -44,7 +72,7 @@ function Signup() {
             </div>
         </div>
         </div>
-        </div>
+        </form>
     
     </>
   )
