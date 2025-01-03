@@ -1,0 +1,12 @@
+Requirement :
+cd backend
+npm init -y
+npm install express mongoose cors dotenv
+npm install --save-dev nodemon
+
+
+npx create-react-app frontend
+cd frontend
+npm install axios react-router-dom
+npm i daisyui
+npm i tailwindcss
